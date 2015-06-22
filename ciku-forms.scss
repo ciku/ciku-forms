@@ -1,10 +1,11 @@
 @import 'settings/settings';
 
+@import 'functions/assign-input';
+@import 'functions/pick-visible-color';
+
 @import 'mixins/placeholder';
 @import 'mixins/input-focus';
 @import 'mixins/tab-focus';
-
-@import 'functions/assign-input';
 
 @import 'elements/normalize-elements';
 @import 'elements/elements';

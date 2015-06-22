@@ -29,7 +29,8 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-  color: $ciku-form-color-white;
+  $button-text-color: pick-visible-color($ciku-form-base-color, $ciku-form-font-color, $ciku-form-color-white);
+  color: $button-text-color;
   background-color: $ciku-form-base-color;
   border-color: darken($ciku-form-base-color, 10%);
 }
