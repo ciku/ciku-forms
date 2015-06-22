@@ -55,6 +55,8 @@ Then, import in SCSS file.
 @import 'bower_components/ciku-forms';
 ```
 
+We highly recommend to use [Autoprefixer](https://github.com/postcss/autoprefixer) with CSS files.
+
 ### Customizing
 
 You can customize the styles using these variables.
