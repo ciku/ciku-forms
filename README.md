@@ -33,7 +33,7 @@ Styling form elements by hand is time consuming. With Ciku Forms with setting a 
 - `<select>`
 - `<textarea>`
 
-### These inputs are not styled. May be we can style in future
+### These inputs are not styled. May be we can style them in future.
 - `input[type="color"]`
 - `<meter>`
 - `<keygen>`
