@@ -6,40 +6,40 @@ Styling form elements by hand is time consuming. With Ciku Forms with setting a 
 
 ## Elements
 
-- [x] `<button>`
-- [x] `<datalist>`
-- [x] `<fieldset>`
-- [x] `<form>`
-- [x] `<input>`
-    - [x] `input[type="text"]`
-    - [x] `input[type="email"]`
-    - [x] `input[type="radio"]` 
-    - [x] `input[type="checkbox"]`
-    - [x] `input[type="password"]`
-    - [x] `input[type="search"]`
-    - [x] `input[type="number"]`
-    - [x] `input[type="tel"]`
-    - [x] `input[type="url"]`
-    - [x] `input[type="date"]`
-    - [x] `input[type="datetime"]`
-    - [x] `input[type="datetime-local"]`
-    - [x] `input[type="time"]`
-    - [x] `input[type="month"]`
-    - [x] `input[type="week"]` 
-- [x] `<label>`
-- [x] `<legend>`
-- [x] `<optgroup>`
-- [x] `<option>`
-- [x] `<select>`
-- [x] `<textarea>`
+- `<button>`
+- `<datalist>`
+- `<fieldset>`
+- `<form>`
+- `<input>`
+    - `input[type="text"]`
+    - `input[type="email"]`
+    - `input[type="radio"]` 
+    - `input[type="checkbox"]`
+    - `input[type="password"]`
+    - `input[type="search"]`
+    - `input[type="number"]`
+    - `input[type="tel"]`
+    - `input[type="url"]`
+    - `input[type="date"]`
+    - `input[type="datetime"]`
+    - `input[type="datetime-local"]`
+    - `input[type="time"]`
+    - `input[type="month"]`
+    - `input[type="week"]` 
+- `<label>`
+- `<legend>`
+- `<optgroup>`
+- `<option>`
+- `<select>`
+- `<textarea>`
 
-### These are not styled. May be in future we can style
-- [ ] ~~`input[type="color"]`~~
-- [ ] ~~`<meter>`~~
-- [ ] ~~`<keygen>`~~
-- [ ] ~~`<output>`~~
-- [ ] ~~`<progress>`~~
+### These inputs are not styled. May be we can style in future
+- `input[type="color"]`
+- `<meter>`
+- `<keygen>`
+- `<output>`
+- `<progress>`
 
 ## Authors
-- Brajeshwar Oinam (@brajeshwar)[https://twitter.com/brajeshwar]
-- Saneef H. Ansari (@saneef)[https://twitter.com/saneef]
+- Brajeshwar Oinam [@brajeshwar](https://twitter.com/brajeshwar)
+- Saneef H. Ansari [@saneef](https://twitter.com/saneef)
