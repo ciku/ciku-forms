@@ -2,7 +2,7 @@
 
 Ciku forms is a boilerplate for form elements.
 
-Styling form elements by hand is time consuming. With Ciku Forms with setting a handful of parameters – border color, background color, padding,… — you can get your form elements styled.
+Styling form elements by hand is time consuming. With Ciku Forms by setting a handful of parameters – font size, border color, padding,… — you can get your form elements styled easily.
 
 ## Elements
 
