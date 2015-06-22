@@ -2,7 +2,6 @@ linters:
   ColorKeyword:
     enabled: false
 
-  StringQuotes:
-    enabled: true
-    style: double_quotes # or single_quotes
+  PropertySortOrder:
+    order: recess
 

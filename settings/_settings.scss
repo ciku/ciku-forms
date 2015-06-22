@@ -1,0 +1,24 @@
+$ciku-form-font-size: 100% !default;
+$ciku-form-line-height: 1.4em !default;
+
+$ciku-form-base-color: #307cd6 !default;
+$ciku-form-font-color: #222 !default;
+$ciku-form-font-color-light: #999 !default;
+
+$ciku-form-color-white: white;
+
+$ciku-form-border-color: #ccc !default;
+$ciku-form-border-width: 1px !default;
+$ciku-form-border-radius: 2px !default;
+
+$ciku-form-padding: 6px !default;
+
+// Spacing
+$ciku-form-base-spacing-unit: $ciku-form-line-height;
+$ciku-form-half-spacing-unit: $ciku-form-line-height / 2;
+$ciku-form-quarter-spacing-unit: $ciku-form-line-height / 4;
+
+$ciku-form-horizontal-padding: $ciku-form-padding;
+$ciku-form-vertical-padding: $ciku-form-padding * 2 / 3;
+
+$ciku-form-legend-border-color: lighten($ciku-form-border-color, 10%);

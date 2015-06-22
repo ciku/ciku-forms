@@ -2,28 +2,33 @@
   font-family: sans-serif;
 }
 
-$c-text: #999;
-$c-border: #d4d4d4;
+$c-text: #222;
+$c-border: $c-text;
 
 h1,
 h2,
 h3 {
+  margin: 0;
   font-weight: normal;
-  margin: 0 0 1em;
+}
+
+.header,
+.article {
+  max-width: 360px;
+  padding: 1.5em;
+  margin: 0 auto;
+  border: 3px solid $c-border;
 }
 
 .header {
   color: $c-text;
-  margin-bottom: 2em;
-  padding-top: 2em;
   text-align: center;
 }
 
 .article {
-  border: 1px solid $c-border;
-  margin: 0 auto;
-  max-width: 720px;
-  padding: 1.5em;
+  border-top: 0;
 }
 
-@import "../ciku-forms";
+// $ciku-form-base-color: #ff7648;
+
+@import '../ciku-forms';

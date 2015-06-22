@@ -25,16 +25,20 @@ Styling form elements by hand is time consuming. With Ciku Forms with setting a 
     - [ ] `input[type="time"]`
     - [ ] `input[type="url"]`
     - [ ] `input[type="week"]` 
-- [ ] `<keygen>`
-- [ ] `<label`
+    - [ ] `input[type="radio"]` 
+    - [ ] `input[type="checkbox"]`
+- [ ] `<label>`
 - [ ] `<legend>`
-- [ ] `<meter>`
 - [ ] `<optgroup>`
 - [ ] `<option>`
-- [ ] `<output>`
-- [ ] `<progress>`
 - [ ] `<select>`
 - [ ] `<textarea>`
+
+### These are not styled. May be in future we can style
+- [ ] ~~`<meter>`~~
+- [ ] ~~`<keygen>`~~
+- [ ] ~~`<output>`~~
+- [ ] ~~`<progress>`~~
 
 ## Authors
 - Brajeshwar Oinam (@brajeshwar)[https://twitter.com/brajeshwar]

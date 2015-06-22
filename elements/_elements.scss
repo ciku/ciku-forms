@@ -1,0 +1,89 @@
+fieldset {
+  display: block;
+  width: 100%;
+  margin-bottom: $ciku-form-base-spacing-unit;
+}
+
+
+legend {
+  padding-top: $ciku-form-half-spacing-unit;
+  padding-bottom: $ciku-form-quarter-spacing-unit;
+}
+
+label + label {
+  padding-top: $ciku-form-quarter-spacing-unit;
+}
+
+// scss-lint:disable QualifyingElement
+button,
+input[type="submit"] {
+  display: inline-block;
+  padding: ($ciku-form-vertical-padding * 2) ($ciku-form-horizontal-padding * 2);
+  margin-bottom: $ciku-form-base-spacing-unit;
+  font-size: $ciku-form-font-size;
+  line-height: 1;
+  vertical-align: middle;
+  background-color: $ciku-form-color-white;
+  border: $ciku-form-border-width solid $ciku-form-border-color;
+  border-radius: $ciku-form-border-radius;
+}
+
+input[type="submit"] {
+  color: $ciku-form-color-white;
+  background-color: $ciku-form-base-color;
+  border-color: darken($ciku-form-base-color, 10%);
+}
+
+
+$text-inputs-list: 'input[type="color"]',
+                   'input[type="date"]',
+                   'input[type="datetime"]',
+                   'input[type="datetime-local"]',
+                   'input[type="email"]',
+                   'input[type="month"]',
+                   'input[type="number"]',
+                   'input[type="password"]',
+                   'input[type="search"]',
+                   'input[type="tel"]',
+                   'input[type="text"]',
+                   'input[type="time"]',
+                   'input[type="url"]',
+                   'input[type="week"]',
+                   'input:not([type])',
+                   'textarea';
+
+$all-text-inputs:        assign-inputs($text-inputs-list);
+$all-text-inputs-active: assign-inputs($text-inputs-list, active);
+$all-text-inputs-focus:  assign-inputs($text-inputs-list, focus);
+$all-text-inputs-hover:  assign-inputs($text-inputs-list, hover);
+
+select,
+#{$all-text-inputs} {
+  @include placeholder();
+  @include input-focus();
+  display: block;
+  width: 100%;
+  padding: $ciku-form-vertical-padding $ciku-form-horizontal-padding;
+  margin-bottom: $ciku-form-base-spacing-unit;
+  font-size: $ciku-form-font-size;
+  line-height: $ciku-form-line-height;
+  border: $ciku-form-border-width solid $ciku-form-border-color;
+  border-radius: $ciku-form-border-radius;
+  box-sizing: border-box;
+}
+
+select {
+  height: $ciku-form-line-height * 1.5;
+}
+
+// scss-lint:disable QualifyingElement
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 0;
+
+  label & {
+    position: relative;
+    top: -.181818182em; // 2px / 11px
+    margin-right: $ciku-form-quarter-spacing-unit / 2;
+  }
+}

@@ -11,8 +11,85 @@
   </header>
   <article class="article">
     <form>
-      <label for="input-01">Name</label>
-      <input type="text" id="input-01">
+      <fieldset>
+        <legend>Profile</legend>
+        <label for="input-01">Name</label>
+        <input type="text" placeholder="Jane Doe" id="input-01">
+
+        <label for="input-02">Email</label>
+        <input type="email" placeholder="jane@unknown.com" id="input-02">
+
+        <label for="input-03">Company</label>
+        <input type="text" placeholder="Unknown Corp." id="input-03">
+
+        <label for="input-04">Description</label>
+        <textarea name="" placeholder="The story…" id="input-04" rows="5"></textarea>
+
+        <input type="submit" value="Submit">
+        <button>Discard</button>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-05">Choose your favorite browser</label>
+        <input list="browsers" placeholder="Firefox,…" id="input-05">
+        <datalist id="browsers">
+          <option value="Chrome">
+          <option value="Firefox">
+          <option value="Internet Explorer">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+
+        <label for="input-06">Choose your favorite framework</label>
+        <select id="input-06">
+          <optgroup label="Python">
+            <option>Django</option>
+          </optgroup>
+          <optgroup label="NodeJS">
+            <option>Express</option>
+            <option>Meteor</option>
+          </optgroup>
+          <optgroup label="Java" disabled>
+            <option>Play</option>
+            <option>Spring</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+        <label for="input-10">Choose your top editors</label>
+        <select id="input-10" multiple>
+          <option value="">BBEdit</option>
+          <option value="">Coda</option>
+          <option value="">Espresso</option>
+          <option value="">Sumblime Text 3</option>
+          <option value="">Text Wrangler</option>
+          <option value="">Textmate</option>
+          <option value="">Vim</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <label>
+          <input type="radio" value="0" name="input-09" checked> Option 1
+        </label>
+        <label>
+          <input type="radio" value="1" name="input-09"> Option 2
+        </label>
+        <label>
+          <input type="radio" value="2" name="input-09"> I don’t care
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+          <input type="checkbox" value=""> Check this just for trying out.
+        </label>
+        <label>
+          <input type="checkbox" value="" checked> Un-check this just for trying out.
+        </label>
+        <label>
+          <input type="checkbox" value="" checked disabled> No point trying, it's disabled.
+        </label>
+      </fieldset>
     </form>
   </article>
 </body>

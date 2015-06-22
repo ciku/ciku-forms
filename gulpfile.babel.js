@@ -12,6 +12,7 @@ gulp.task('lint', () => {
       './ciku-forms.scss',
       './settings/**/*.scss',
       './mixins/**/*.scss',
+      './functions/**/*.scss',
       './elements/**/*.scss',
       './test/**/*.scss'
     ])
@@ -60,6 +61,7 @@ gulp.task('test', ['preBuild'], () => {
       './ciku-forms.scss',
       './settings/**/*.scss',
       './mixins/**/*.scss',
+      './functions/**/*.scss',
       './elements/**/*.scss',
       './test/**/*.scss'
     ], ['sass', 'lint']);
