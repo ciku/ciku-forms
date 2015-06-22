@@ -1,25 +1,40 @@
 {
   "name": "ciku-forms",
   "version": "0.0.1",
+  "main": "ciku-forms.scss",
   "authors": [
-    "Saneef Ansari <saneef@gmail.com>",
-    "Brajeshwar Oinam <brajeshwar@oinam.com>"
+    "Saneef Ansari <saneef@gmail.com> (https://saneef.com/)",
+    "Brajeshwar Oinam <brajeshwar@oinam.com> (http://brajeshwar.com/)"
   ],
   "description": "Ciku forms is a boilerplate for form elements.",
   "keywords": [
     "html",
-    "forms",
+    "html5",
+    "form",
     "boilerplate",
     "css",
     "sass",
-    "scss"
+    "scss",
+    "input",
+    "select",
+    "checkbox",
+    "radio",
+    "button"
   ],
-  "license": "Unlicense"
+  "license": "Unlicense",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ]
+    "tests",
+    "gulpfile.babel.js",
+    "vendor/",
+    "Gemfile",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ciku/ciku-forms.git"
+  }
 }
