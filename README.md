@@ -11,22 +11,21 @@ Styling form elements by hand is time consuming. With Ciku Forms with setting a 
 - [x] `<fieldset>`
 - [x] `<form>`
 - [x] `<input>`
-    - [ ] `input[type="color"]`
-    - [ ] `input[type="date"]`
-    - [ ] `input[type="datetime"]`
-    - [ ] `input[type="datetime-local"]`
-    - [x] `input[type="email"]`
-    - [ ] `input[type="month"]`
-    - [ ] `input[type="number"]`
-    - [ ] `input[type="password"]`
-    - [ ] `input[type="search"]`
-    - [ ] `input[type="tel"]`
     - [x] `input[type="text"]`
-    - [ ] `input[type="time"]`
-    - [ ] `input[type="url"]`
-    - [ ] `input[type="week"]` 
+    - [x] `input[type="email"]`
     - [x] `input[type="radio"]` 
     - [x] `input[type="checkbox"]`
+    - [x] `input[type="password"]`
+    - [x] `input[type="search"]`
+    - [x] `input[type="number"]`
+    - [x] `input[type="tel"]`
+    - [x] `input[type="url"]`
+    - [x] `input[type="date"]`
+    - [x] `input[type="datetime"]`
+    - [x] `input[type="datetime-local"]`
+    - [x] `input[type="time"]`
+    - [x] `input[type="month"]`
+    - [x] `input[type="week"]` 
 - [x] `<label>`
 - [x] `<legend>`
 - [x] `<optgroup>`
@@ -35,6 +34,7 @@ Styling form elements by hand is time consuming. With Ciku Forms with setting a 
 - [x] `<textarea>`
 
 ### These are not styled. May be in future we can style
+- [ ] ~~`input[type="color"]`~~
 - [ ] ~~`<meter>`~~
 - [ ] ~~`<keygen>`~~
 - [ ] ~~`<output>`~~
