@@ -1,0 +1,9 @@
+.DS_Store
+
+Gemfile.lock
+.bundle/
+.tmp/
+node_modules/
+bower_compoenents/
+vendor/
+

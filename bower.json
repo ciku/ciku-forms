@@ -1,0 +1,25 @@
+{
+  "name": "ciku-forms",
+  "version": "0.0.1",
+  "authors": [
+    "Saneef Ansari <saneef@gmail.com>",
+    "Brajeshwar Oinam <brajeshwar@oinam.com>"
+  ],
+  "description": "Ciku forms is a boilerplate for form elements.",
+  "keywords": [
+    "html",
+    "forms",
+    "boilerplate",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "license": "Unlicense"
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
