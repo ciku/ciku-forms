@@ -5,11 +5,14 @@
 $c-text: #222;
 $c-border: $c-text;
 
+p {
+  margin: 0 0 1em;
+}
+
 h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: normal;
 }
 
 .header,
@@ -22,13 +25,16 @@ h3 {
 
 .header {
   color: $c-text;
-  text-align: center;
 }
 
 .article {
   border-top: 0;
 }
 
+// Importing ciku-forms
+//
+
+// Configuring ciku-forms
 $ciku-form-base-color: #8e44ad;
 
 @import '../ciku-forms';
