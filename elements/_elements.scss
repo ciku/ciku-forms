@@ -73,7 +73,7 @@ select,
 }
 
 select {
-  height: $ciku-form-line-height * 1.5;
+  height: $ciku-form-base-spacing-unit * 1.5;
 }
 
 // scss-lint:disable QualifyingElement

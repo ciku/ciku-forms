@@ -19,8 +19,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: $ciku-form-line-height;
-  font-size: ($ciku-form-font-size);
+  margin-bottom: $ciku-form-base-spacing-unit;
+  font-size: $ciku-form-font-size;
   font-weight: bold;
   line-height: inherit;
   color: $ciku-form-font-color;
