@@ -1,7 +1,7 @@
 {
   "name": "ciku-forms",
   "version": "0.0.2",
-  "main": "ciku-forms.scss",
+  "main": "_ciku-forms.scss",
   "authors": [
     "Saneef Ansari <saneef@gmail.com> (https://saneef.com/)",
     "Brajeshwar Oinam <brajeshwar@oinam.com> (http://brajeshwar.com/)"
