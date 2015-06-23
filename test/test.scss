@@ -1,9 +1,13 @@
+$c-text: #222;
+$c-border: $c-text;
+
 :root {
   font-family: sans-serif;
 }
 
-$c-text: #222;
-$c-border: $c-text;
+body {
+  margin: 1em;
+}
 
 p {
   margin: 0 0 1em;
