@@ -42,6 +42,10 @@ Styling form elements by hand is time consuming. With Ciku Forms by setting a ha
 
 ## Usage
 
+### Requirements
+
+Ciku forms uses [Autoprefixer](https://github.com/postcss/autoprefixer) to handle [vendor prefixes](http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm). So, you’ll have to intergrate Autoprefixer into you build process.
+
 ### Installation
 
 #### Bower
@@ -54,8 +58,6 @@ Then, import in SCSS file.
 ```SCSS
 @import 'bower_components/ciku-forms';
 ```
-
-We highly recommend to use [Autoprefixer](https://github.com/postcss/autoprefixer) with CSS files.
 
 ### Customizing
 
