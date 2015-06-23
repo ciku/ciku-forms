@@ -1,0 +1,36 @@
+@import 'strip-units';
+
+@function spacing-unit($font-size, $line-height) {
+  $line-height-unit: unit($line-height);
+  $line-height-value: strip-units($line-height);
+  $font-size-unit: unit($font-size);
+  $font-size-value: strip-units($font-size);
+
+  @if $line-height-unit == 'px' {
+    @if $font-size-unit == 'px' {
+      @return ($line-height-value / $font-size-value) * 1em;
+    }
+
+    @if $font-size-unit == '%' {
+      @return ($line-height-value / ($font-size-value * strip-units($ciku-form-em-base) / 100)) * 1em;
+    }
+
+    @if $font-size-unit == 'em' {
+      @return ($line-height-value / ($font-size-value * strip-units($ciku-form-em-base))) * 1em;
+    }
+  }
+
+  @if $line-height-unit == '' {
+    @if $font-size-unit == 'px' {
+      @return $line-height * ($font-size / $ciku-form-em-base) * 1em;
+    }
+
+    @if $font-size-unit == '%' {
+      @return $line-height * ($font-size-value / 100) * 1em;
+    }
+
+    @if $font-size-unit == 'em' {
+      @return $line-height * $font-size-value * 1em;
+    }
+  }
+}

@@ -63,15 +63,15 @@ Then, import in SCSS file.
 
 You can customize the styles using these variables.
 
-- **$ciku-form-font-size** - default is 100%
-- **$ciku-form-line-height** - default is 1.4em
-- **$ciku-form-base-color** - default is #307cd6
-- **$ciku-form-font-color** - default is #222
-- **$ciku-form-font-color-light** - default is #999
-- **$ciku-form-border-color** - default is #ccc
-- **$ciku-form-border-width** - default is 1px
-- **$ciku-form-border-radius** - default is 2px
-- **$ciku-form-padding** - default is 6px
+- **$ciku-form-font-size** - support px, % and em values. Default is 100%. When the unit is either % or em, the assumption is 1em = 16px. You can change this by defining `$ciku-form-em-base`. For example: `$ciku-form-em-base: 24px;`
+- **$ciku-form-line-height** - support unitless and px values. Default is 1.4.
+- **$ciku-form-base-color** - default is #307cd6.
+- **$ciku-form-font-color** - default is #222.
+- **$ciku-form-font-color-light** - default is #999.
+- **$ciku-form-border-color** - default is #ccc.
+- **$ciku-form-border-width** - default is 1px.
+- **$ciku-form-border-radius** - default is 2px.
+- **$ciku-form-input-padding** - default is ¹⁄₄ of `$ciku-form-line-height`.
 
 ## Authors
 - Brajeshwar Oinam [@brajeshwar](https://twitter.com/brajeshwar)

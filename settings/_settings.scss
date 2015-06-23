@@ -1,5 +1,9 @@
+@import 'functions/spacing-unit';
+
+// Typography
+$ciku-form-em-base: 16px !default;
 $ciku-form-font-size: 100% !default;
-$ciku-form-line-height: 1.4em !default;
+$ciku-form-line-height: 1.4 !default;
 
 // Colors
 $ciku-form-base-color: #307cd6 !default;
@@ -16,10 +20,16 @@ $ciku-form-border-radius: 2px !default;
 $ciku-form-legend-border-color: lighten($ciku-form-border-color, 10%);
 
 // Spacing
-$ciku-form-base-spacing-unit: $ciku-form-line-height;
-$ciku-form-half-spacing-unit: $ciku-form-line-height / 2;
-$ciku-form-quarter-spacing-unit: $ciku-form-line-height / 4;
+@if unit($ciku-form-font-size) != 'px' and unit($ciku-form-font-size) != '%' and unit($ciku-form-font-size) != 'em' {
+  @error '$ciku-form-font-size only supports px, % and em values, was #{$ciku-form-font-size}';
+}
+@if unit($ciku-form-line-height) != '' and unit($ciku-form-line-height) != 'px' {
+  @error '$ciku-form-line-height only supports unitless and px values, was #{$ciku-form-line-height}';
+}
+$ciku-form-base-spacing-unit: spacing-unit($ciku-form-font-size, $ciku-form-line-height);
+$ciku-form-half-spacing-unit: $ciku-form-base-spacing-unit / 2;
+$ciku-form-quarter-spacing-unit: $ciku-form-base-spacing-unit / 4;
 
-$ciku-form-padding: 6px !default;
-$ciku-form-horizontal-padding: $ciku-form-padding;
-$ciku-form-vertical-padding: $ciku-form-padding * 2 / 3;
+$ciku-form-input-padding: $ciku-form-quarter-spacing-unit !default;
+$ciku-form-horizontal-padding: $ciku-form-input-padding;
+$ciku-form-vertical-padding: $ciku-form-input-padding * 2 / 3;
