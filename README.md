@@ -76,11 +76,21 @@ You can customize the styles using these variables.
 
 ### Development and Contribution
 
+The build process uses [Gulp](http://gulpjs.com/)(3.9.0+), so make sure you have latest version installed.
+
+Install the dependencies
 ```Shell
 bundle
 bower install
 npm install
 ```
+
+Test the changes using
+```Shell
+gulp test
+```
+
+Before pull requests, please clear up all the SCSS-Lint warnings.
 
 ## Authors
 
