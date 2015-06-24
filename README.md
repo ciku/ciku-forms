@@ -2,7 +2,7 @@
 
 Ciku forms is a Sass boilerplate for form elements.
 
-Styling form elements by hand is time consuming. With Ciku Forms by setting a handful of parameters – font size, border color, padding,… — you can get your form elements styled easily.
+Styling form elements by hand is time consuming. With Ciku Forms, by setting a handful of parameters – font size, border color, padding,… — you can get your form elements styled easily.
 
 ## Elements
 
@@ -34,6 +34,7 @@ Styling form elements by hand is time consuming. With Ciku Forms by setting a ha
 - `<textarea>`
 
 ### These inputs are not styled. May be we can style them in future.
+
 - `input[type="color"]`
 - `<meter>`
 - `<keygen>`
@@ -45,6 +46,8 @@ Styling form elements by hand is time consuming. With Ciku Forms by setting a ha
 ### Requirements
 
 Ciku forms uses [Autoprefixer](https://github.com/postcss/autoprefixer) to handle [vendor prefixes](http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm). So, you’ll have to intergrate Autoprefixer into you build process.
+
+[Gulp](http://gulpjs.com/) 3.9.0+
 
 ### Installation
 
@@ -73,6 +76,15 @@ You can customize the styles using these variables.
 - **$ciku-form-border-radius** - default is 2px.
 - **$ciku-form-input-padding** - default is ¹⁄₄ of `$ciku-form-line-height`.
 
+### Development and Contribution
+
+```Shell
+bundle
+bower install
+npm install
+```
+
 ## Authors
-- Brajeshwar Oinam [@brajeshwar](https://twitter.com/brajeshwar)
+
+- [Brajeshwar Oinam](http://brajeshwar.me/)
 - Saneef H. Ansari [@saneef](https://twitter.com/saneef)

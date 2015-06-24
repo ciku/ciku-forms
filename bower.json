@@ -4,7 +4,7 @@
   "main": "_ciku-forms.scss",
   "authors": [
     "Saneef Ansari <saneef@gmail.com> (https://saneef.com/)",
-    "Brajeshwar Oinam <brajeshwar@oinam.com> (http://brajeshwar.com/)"
+    "Brajeshwar Oinam <brajeshwar@oinam.com> (http://brajeshwar.me/)"
   ],
   "description": "Ciku forms is a boilerplate for form elements.",
   "keywords": [
@@ -21,7 +21,7 @@
     "radio",
     "button"
   ],
-  "license": "Unlicense",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

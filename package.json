@@ -21,7 +21,7 @@
     "Saneef Ansari <saneef@gmail.com>",
     "Brajeshwar Oinam <brajeshwar@oinam.com>"
   ],
-  "license": "Unlicense",
+  "license": "MIT",
   "devDependencies": {
     "babel": "^5.6.2",
     "browser-sync": "^2.7.12",
@@ -30,6 +30,7 @@
     "gulp-autoprefixer": "^2.3.1",
     "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^5.1.9",
     "gulp-sass": "^2.0.1",
     "gulp-scss-lint": "^0.2.0",
     "gulp-sourcemaps": "^1.5.2",
