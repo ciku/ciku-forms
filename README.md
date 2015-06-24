@@ -95,4 +95,4 @@ Before pull requests, please clear up all the SCSS-Lint warnings.
 ## Authors
 
 - [Brajeshwar Oinam](http://brajeshwar.me/)
-- Saneef H. Ansari [@saneef](https://twitter.com/saneef)
+- [Saneef H. Ansari](https://saneef.com)
