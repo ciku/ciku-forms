@@ -47,8 +47,6 @@ Styling form elements by hand is time consuming. With Ciku Forms, by setting a h
 
 Ciku forms uses [Autoprefixer](https://github.com/postcss/autoprefixer) to handle [vendor prefixes](http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm). So, you’ll have to intergrate Autoprefixer into you build process.
 
-[Gulp](http://gulpjs.com/) 3.9.0+
-
 ### Installation
 
 #### Bower
