@@ -9,7 +9,7 @@ const $ = gulpLoadPlugins();
 
 gulp.task('lint', () => {
   return gulp.src([
-      './ciku-forms.scss',
+      './_ciku-forms.scss',
       './settings/**/*.scss',
       './mixins/**/*.scss',
       './functions/**/*.scss',
@@ -58,7 +58,7 @@ gulp.task('test', ['preBuild'], () => {
   });
 
   gulp.watch([
-      './ciku-forms.scss',
+      './_ciku-forms.scss',
       './settings/**/*.scss',
       './mixins/**/*.scss',
       './functions/**/*.scss',
