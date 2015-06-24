@@ -1,3 +1,4 @@
+import autoprefixer from 'autoprefixer-core';
 import browserSync from 'browser-sync';
 import del from 'del';
 import gulp from 'gulp';
@@ -16,9 +17,9 @@ gulp.task('lint', () => {
       './elements/**/*.scss',
       './test/**/*.scss'
     ])
-    .pipe(scsslint({
-      'bundleExec': true
-    }));
+  .pipe(scsslint({
+    'bundleExec': true
+  }));
 });
 
 gulp.task('clean', () => {
@@ -36,7 +37,9 @@ gulp.task('sass', () => {
       precision: 10,
       includePaths: ['.']
     }).on('error', $.sass.logError))
-    .pipe($.autoprefixer({browsers: ['last 2 version']}))
+    .pipe($.postcss([
+        autoprefixer({browsers: ['last 2 version']})
+      ]))
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest('.tmp/'))
     .pipe(browserSync.reload({stream: true}));

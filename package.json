@@ -23,6 +23,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
     "babel": "^5.6.2",
     "browser-sync": "^2.7.12",
     "del": "^1.2.0",
