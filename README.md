@@ -57,7 +57,7 @@ bower install --save ciku-forms
 
 Then, import in SCSS file.
 ```SCSS
-@import 'bower_components/ciku-forms';
+@import 'bower_components/ciku-forms/ciku-forms';
 ```
 
 ### Customizing
