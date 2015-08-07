@@ -57,13 +57,14 @@ bower install --save ciku-forms
 
 Then, import in SCSS file.
 ```SCSS
-@import 'bower_components/ciku-forms';
+@import 'bower_components/ciku-forms/ciku-forms';
 ```
 
 ### Customizing
 
 You can customize the styles using these variables.
 
+- **$ciku-form-font-family** - Default is inherit.
 - **$ciku-form-font-size** - support px, % and em values. Default is 100%. When the unit is either % or em, the assumption is 1em = 16px. You can change this by defining `$ciku-form-em-base`. For example: `$ciku-form-em-base: 24px;`
 - **$ciku-form-line-height** - support unitless and px values. Default is 1.4.
 - **$ciku-form-base-color** - default is #307cd6.
