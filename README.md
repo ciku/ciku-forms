@@ -1,8 +1,8 @@
 # Ciku Forms
 
-Ciku forms is a Sass boilerplate for form elements.
+Ciku Forms is a Sass boilerplate for form elements.
 
-Styling form elements by hand is time consuming. With Ciku Forms, by setting a handful of parameters – font size, border color, padding,… — you can get your form elements styled easily.
+Styling form elements is time consuming. With Ciku Forms, by setting a handful of parameters – font size, border color, padding,… — you can get your form elements styled easily.
 
 ## Elements
 
@@ -13,7 +13,7 @@ Styling form elements by hand is time consuming. With Ciku Forms, by setting a h
 - `<input>`
     - `input[type="text"]`
     - `input[type="email"]`
-    - `input[type="radio"]` 
+    - `input[type="radio"]`
     - `input[type="checkbox"]`
     - `input[type="password"]`
     - `input[type="search"]`
@@ -25,7 +25,7 @@ Styling form elements by hand is time consuming. With Ciku Forms, by setting a h
     - `input[type="datetime-local"]`
     - `input[type="time"]`
     - `input[type="month"]`
-    - `input[type="week"]` 
+    - `input[type="week"]`
 - `<label>`
 - `<legend>`
 - `<optgroup>`
