@@ -20,6 +20,9 @@ $ciku-form-border-radius: 2px !default;
 
 $ciku-form-legend-border-color: lighten($ciku-form-border-color, 10%);
 
+// Text Shadow
+$ciku-form-base-text-shadow: rgba(0, 0, 0, .075);
+
 // Spacing
 @if unit($ciku-form-font-size) != 'px' and unit($ciku-form-font-size) != '%' and unit($ciku-form-font-size) != 'em' {
   @error '$ciku-form-font-size only supports px, % and em values, was #{$ciku-form-font-size}';

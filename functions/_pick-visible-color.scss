@@ -2,13 +2,11 @@
 // https://lnikki.la/articles/sass-better-colour-based-on-brightness/
 
 @function luma($c) {
-  $-local-red: red(rgba($c, 1));
-  $-local-green: green(rgba($c, 1));
-  $-local-blue: blue(rgba($c, 1));
+  $-l-red: red(rgba($c, 1));
+  $-l-green: green(rgba($c, 1));
+  $-l-blue: blue(rgba($c, 1));
 
-  @return (.2126 * $-local-red  +
-           .7152 * $-local-green +
-           .0722 * $-local-blue) / 255;
+  @return (.2126 * $-l-red + .7152 * $-l-green + .0722 * $-l-blue) / 255;
 }
 
 @function pick-visible-color($bg, $c1, $c2) {
