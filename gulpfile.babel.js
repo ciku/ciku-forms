@@ -1,4 +1,4 @@
-import autoprefixer from 'autoprefixer-core';
+import autoprefixer from 'autoprefixer';
 import browserSync from 'browser-sync';
 import del from 'del';
 import gulp from 'gulp';
