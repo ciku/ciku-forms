@@ -16,6 +16,7 @@ Styling form elements is time consuming. With Ciku Forms, by setting a handful o
     - `input[type="radio"]`
     - `input[type="checkbox"]`
     - `input[type="password"]`
+    - `input[type="submit"]`
     - `input[type="search"]`
     - `input[type="number"]`
     - `input[type="tel"]`
